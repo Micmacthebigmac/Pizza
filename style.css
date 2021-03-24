@@ -1,0 +1,29 @@
+.background01 {
+    position: absolute;
+    z-index: -1;
+    width: 1920;
+    height: 2589;
+}
+
+.background02 {
+    position: absolute;
+    z-index: -1;
+    width: 1920;
+    height: 2588;
+}
+
+.background6_1 {
+    z-index: 1;
+    position: absolute;
+    top: 5;
+    width: 1920;
+    height: 789.45;
+}
+
+.background6_2 {
+    z-index: 1;
+    position: absolute;
+    top: 1458.29;
+    width: 1920;
+    height: 789.45;
+}
