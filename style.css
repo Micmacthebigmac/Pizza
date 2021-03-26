@@ -1,29 +1,33 @@
-.background01 {
+#header{
     position: absolute;
-    z-index: -1;
+    z-index: -2;
+    height: 1024px;
+    width: 100%;
+    background-image: url("photo/background-01.png");
+}
+
+.background01{
+    position: absolute;
+    z-index: -2;
     width: 1920;
     height: 2589;
 }
 
-.background02 {
+.background6_1{
     position: absolute;
+    top: 500;
     z-index: -1;
     width: 1920;
-    height: 2588;
+    height: 1453.29;
 }
 
-.background6_1 {
-    z-index: 1;
-    position: absolute;
-    top: 5;
-    width: 1920;
-    height: 789.45;
+.navBarPizza{
+    width: 100%;
+    border: white solid 1px;
 }
 
-.background6_2 {
-    z-index: 1;
+.italianCuisine{
     position: absolute;
-    top: 1458.29;
-    width: 1920;
-    height: 789.45;
+    z-index: 1;   
+    top: 300px;
 }
