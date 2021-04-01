@@ -1,33 +1,112 @@
-#header{
-    position: absolute;
-    z-index: -2;
-    height: 1024px;
-    width: 100%;
+body {
     background-image: url("photo/background-01.png");
+    margin: 0;
+}
+h1{
+    font-size: 9em;
+    font-family: Satisfy regular;
+    color: #EC6669;
 }
 
-.background01{
+.italian {
+    height: 100vh;
+    background-image: url("photo/rosemary+herb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    display: flex;
+    justify-content: center;
+    padding: 30vh;
+}
+
+div {
+    border: red solid 0.5px;
+    margin: 0px;
+}
+
+.blur {
+    filter : blur(15px);
+    background-color:rgb(248, 248, 248);
+    background-image: url("photo/glass-01-texture.png");
+    mix-blend-mode: overlay;
     position: absolute;
-    z-index: -2;
-    width: 1920;
-    height: 2589;
+    top: 65vh;
+    border-radius: 10px;
+    left: 42%;
+    width: 15%;
+    height: 55vh;
+    margin: 0px;
 }
 
-.background6_1{
-    position: absolute;
-    top: 500;
-    z-index: -1;
-    width: 1920;
-    height: 1453.29;
+h2{
+    font-size: 3em;
+    font-family: Satisfy regular;
+    color: #FFFFFF;
+    margin-right: 85vh;
 }
 
-.navBarPizza{
+#ourSpecialities{
+    height: 60vh;
     width: 100%;
-    border: white solid 1px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.italianCuisine{
+.photoPizza{
+    object-fit: contain;
+}
+
+.ourSpec{
     position: absolute;
-    z-index: 1;   
-    top: 300px;
+    left: 43%;
+}
+
+.italianPizza{
+    position: relative;
+    left: 120vh;
+    top: 20%;
+    color: #FFFFFF;
+    width: 30%;
+}
+
+.italianPicture{
+    color: #FFFFFF;
+    margin-top: 10vh;
+    margin-right: 60vh;
+}
+
+.row-fdp {
+
+        display: flex;
+        flex-direction: row;
+
+}
+
+.column-fdp {
+
+    display: flex;
+    flex-direction: column;
+}
+
+#spec {
+
+    margin-right: 3em;
+}
+
+.row-fdp2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.italian2{
+    height: 100vh;
+    background-image: url("photo/rosemary+herb.png");
+    background-repeat: no-repeat;
+    background-size: 100% 110%;
+    display: flex;
+    justify-content: center;
+    padding: 22vh;
+    margin-top: 15vh;
 }
